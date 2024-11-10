@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    text-align: center;
+    padding: 2cm;
+    border-radius: 30px;
+    width: 100%;
+}
+.container p{
+    color: grey;
+}
+.timeline{
+    position: relative;
+}
+.timeline-date{
+    color: grey;
+}
