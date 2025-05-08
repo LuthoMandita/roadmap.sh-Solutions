@@ -10,16 +10,15 @@
     <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
     <meta name="author" content="Lutho Mandita" />
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/39/1f/af/391faf014b33807fa78e168ac91ab399.jpg">
-    <link rel="stylesheet"  href="style.css"/>
     <title>Basic HTML Website</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="#" alt="Logo">
+            <img src="#" alt="Logo"><h2>your name</h2>
             <nav>
                 <a href="Index.html">Home</a>
-                <a href="Project.html">Projects</a>
+                <a href="Projects.html">Projects</a>
                 <a href="Article.html">Articles</a>
                 <a href="Contact.html">Contact</a>
             </nav>
@@ -27,66 +26,97 @@
 
         <h1>Basic HTML Website</h1>
         <p class="subheading">HTML only with proper layout, no styling</p>
+        <table>
+                <div class="content">
+                    <!-- Columns -->
+                    <tr>                       
+                            <th>
+                                <h2>Projects</h2>
+                            </th>
+                            <th>
+                                <h2>Work Experience</h2>
+                            </th>
+                            <th>
+                                <h2>Education</h2>
+                            </th>
+                    </tr>
 
-        <div class="content">
-            <!-- Projects Section -->
-            <div class="projects">
-                <h2>Projects</h2>
-                <ul>
-                    <li>HTML Only Portfolio</li>
-                    <li>Calculator</li>
-                    <li>Quiz App</li>
-                    <li>Countdown Timer</li>
-                    <li>Product Upcoming Page</li>
-                </ul>
-            </div>
+                    <!-- Row 1 -->
 
-            <!-- Work Experience Section -->
-            <div class="work-experience">
-                <h2>Work Experience</h2>
-                <p><strong>roadmap.sh</strong><br>Solving all the frontend projects</p>
-                <p><a href="#">Visit my Profile</a></p>
+                    <tr>
+                        <td>HTML Only Portfolio</td>
+                        <td rowspan="2">
+                            <strong>roadmap.sh</strong><br/>Solving all the frontend projects
+                            <p><a href="#">Visit my Profile</a></p>
+                        </td>
+                        <td rowspan="5">
+                            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                            <br/>
+                            <p>
+                            <strong>Courses I took:</strong>
+                            <ul>
+                                <li>Object Oriented Programming</li>
+                                <li>Data Structures and Algorithms</li>
+                                <li>Web Engineering</li>
+                                <li>Artificial Intelligence</li>
+                                <li>Human Computer Interaction</li>
+                                <li>Computer Graphics</li>
+                                <li>Database Management Systems</li>
+                                <li>Distributed Database Systems</li>
+                                <li>Discrete Mathematics</li>
+                            </ul>
+                            </p>
+                        </td>
+                    </tr>
 
-                <p><strong>OpenSource Work</strong><br>Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.</p>
-                <p><a href="#">Visit my GitHub Profile</a></p>
-            </div>
+                    <!-- Row 2 -->
 
-            <!-- Education Section -->
-            <div class="education">
-                <h2>Education</h2>
-                <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
-                <p><strong>Courses I took:</strong></p>
-                <ul>
-                    <li>Object Oriented Programming</li>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Web Engineering</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Human Computer Interaction</li>
-                    <li>Computer Graphics</li>
-                    <li>Database Management Systems</li>
-                    <li>Distributed Database Systems</li>
-                    <li>Discrete Mathematics</li>
-                </ul>
-            </div>
-        </div>
+                    <tr>
+                        <td>Calculator</td>  
+                    </tr>
 
+                    <!-- Row 3 -->
+
+                    <tr>
+                        <td>Quiz App</td>
+                        <td rowspan="3">
+                            <strong>OpenSource Work</strong>
+                            <p>
+                                Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.
+                                <a href="#">Visit my GitHub Profile</a>
+                            </p>
+                        <td>                   
+                    </tr>
+
+                    <!-- Row 4 -->
+
+                    <tr>
+                        <td>Countdown Timer</td>
+                    </tr>
+
+                    <!-- Row 5 -->
+
+                    <tr>
+                        <td>Product Upcoming Page</td>
+                    </tr>                        
+                </div>
+            </table>               
         <!-- Reviews Section -->
         <div class="reviews">
             <h2>Reviews from my Teachers</h2>
-            <div>
-                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
-                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
-            </div>
-            <div>
-                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
-                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
-            </div>
-            <div>
-                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
-                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
-            </div>
+                <div>
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+                </div>
+                <div>
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+                </div>
+                <div>
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+                </div>
         </div>
-
         <footer>
             &copy; all rights reserved 2025
         </footer>
