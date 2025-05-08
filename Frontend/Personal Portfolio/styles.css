@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+}
+header img {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+header nav {
+    font-size: 14px;
+}
+header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
+h1, h2, strong {
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+}
+.subheading {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+.flex-container {
+    flex-direction: row;
+}
+
+td, th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+.reviews {
+    margin-top: 40px;
+}
+.reviews div {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
+
+@media screen and (max-width: 900px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    td, th{
+        flex: 1;
+        padding: 10px;
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav {
+        margin-top: 10px;
+    }
+    .reviews div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
