@@ -1,81 +1,73 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-}
-.container {
-    max-width: 900px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-}
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #000;
-    padding-bottom: 20px;
-}
-header img {
-    width: 50px;
-    height: 50px;
-    background-color: #000;
-    border-radius: 50%;
-}
-header nav {
-    font-size: 14px;
-}
-header nav a {
-    margin-right: 20px;
-    text-decoration: none;
-    color: #000;
-}
-h1 {
-    font-family: 'Comic Sans MS', cursive;
-    text-align: center;
-}
-.subheading {
-    text-align: center;
-    font-size: 16px;
-    color: #666;
-}
-.content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.projects, .work-experience, .education {
-    width: 30%;
-}
-h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #000;
-}
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-ul li {
-    margin-bottom: 10px;
-}
-.reviews {
-    margin-top: 40px;
-}
-.reviews div {
-    display: inline-block;
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    margin-right: 5px;
-}
-footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 14px;
-    color: #666;
-}
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #000;
+            padding-bottom: 20px;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        header nav {
+            font-size: 14px;
+        }
+        header nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #000;
+        }
+        h1, h2, strong {
+            font-family: 'Comic Sans MS', cursive;
+            text-align: center;
+        }
+        .subheading {
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+        }
+              
+        td, th{
+            margin: 50px;
+            border-left: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+        table {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: left;
+        }
+        .reviews {
+            margin-top: 40px;
+        }
+        .reviews div {
+            display: inline-block;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-right: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
